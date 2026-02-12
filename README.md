@@ -1,19 +1,19 @@
+cat > README.md <<'EOF'
 # Наш DevOps проект
 
 ## Описание проекта
-Командная документация для учебного DevOps-проекта. Цель — отработать workflow: ветки, PR и merge-конфликты.
+Документация команды по DevOps-проекту. Практика: ветки, PR, конфликты и их разрешение.
 
 ## Команда
-- Bektur — Owner / DevOps (Git workflow, merge)
+- Akhmat — Cloud Engineer (CI/CD, review)
 
 ## Стек технологий
-- Git / GitHub
-- Linux
-- Docker
+- Kubernetes
+- AWS
+- GitHub Actions
 
 ## Инструкции по запуску
-1. git clone репозитория
-2. Создать ветку feature/<name>
-3. Внести изменения в README и создать PR
-
-
+1. Clone repository
+2. Create feature branch
+3. Open Pull Request and resolve conflicts if needed
+EOF
