@@ -1,19 +1,24 @@
 # Наш DevOps проект
 
 ## Описание проекта
-Командная документация для учебного DevOps-проекта. Цель - отработать workflow: ветки, Pull Request и merge-конфликты.
+Документация команды для учебного DevOps-проекта.
+Цель — отработать Git workflow: ветки, Pull Request и разрешение merge-конфликтов.
 
 ## Команда
-- Bektur - DevOps Engineer (workflow, merge)
-  
+- Bektur — DevOps Engineer (workflow, merge)
+- Akhmat — Cloud Engineer (CI/CD, review)
+
 ## Стек технологий
 - Git / GitHub
 - Linux
 - Docker
-  
+- Kubernetes
+- AWS
+- GitHub Actions
+
 ## Инструкции по запуску
-1) git clone <url>
-2) git checkout -b feature/bektur
-3) Изменить README.md
-4) git add, commit, push
-5) Открыть PR
+1. Clone repository
+2. Create feature branch
+3. Edit README.md
+4. Commit and push
+5. Open Pull Request
